@@ -1,21 +1,31 @@
 #include<stdio.h>
+#include<string.h>
+char m[10][2][100];
 
-char m[10][2];
+void asd(char input,char name){
 
-main(){
-
-    char input[10];
-    char name[20];
-    scanf("%s",input);
-    scanf("%s",nameinput);
-
-    Add(m *L,input,nameinput);
-
+    
 }
 
-void Add(char input,char name){
-    m[0][0] = input;
-    m[0][1] = name;
-    prtinf("%s %s",m[0][0],m[0][1])
+main(){
+	int i;
+    char input[100];
+    char name[100];
+    scanf("%s",&input);
+    scanf("%s",&name);
+    
+	strcpy(m[0][0],input);
+	strcpy(m[0][1],name);
+	
+	printf("%s %s\n",input,name);
+
+
+	printf("%s ",m[0][0]);
+
+	printf("%s",m[0][1]);
+
+	
+	
+	    
 }
 
