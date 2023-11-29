@@ -12,7 +12,8 @@ main(){
     char input[100];
     char name[100];
 	//번호
-	scanf("%d-1",&n);
+	scanf("%d",&n);
+	n-=1;
 
 	printf("%d",n);
 
