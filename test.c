@@ -2,15 +2,12 @@
 #include<string.h>
 char m[10][2][100];
 
-void asd(char input,char name){
-
-    
-}
 
 main(){
 	int i,n;
     char input[100];
     char name[100];
+
 	//번호
 	scanf("%d",&n);
 	n-=1;
