@@ -2,7 +2,7 @@
 #include<string.h>
 //음악 리스트 생성 [리스트수][0번:코드 1번:이름][문자열칸]
 int length = 10;
-char m[length][2][100];
+char m[10][2][100];
 
 
 main(){
